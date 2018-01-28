@@ -1,0 +1,184 @@
+﻿.body-padding {
+    padding-top: 50px;
+}
+
+.header {
+    background-color: #222;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner > .item > img {
+    width: 100%;
+    height: 570px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar.affix {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-default {
+    overflow: hidden;
+    background-color: #DCDCDC;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #333;
+    font-size: 1.2em;
+}
+
+.navbar-nav {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    background-color: #bbce00; /*#DCDCDC;*/
+}
+
+nav ul li:hover {
+    background-color: #222;/*#A9A9A9;*/
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #bbce00;
+}
+
+.mainContent {
+    height: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 16.65%;
+    margin-right: 16.65%;
+    width: 66.6%;
+}
+
+.section-divider {
+    padding-top: 100px;
+    padding-right: 70px;
+    padding-bottom: 100px;
+    padding-left: 70px;
+}
+
+.top-row {
+    margin-top: 100px;
+}
+
+.bottom-row {
+    margin-bottom: 100px;
+}
+
+.section-row {
+    margin-right: -15px;
+    margin-left: -15px;
+    
+    display: inline-block;
+}
+
+.section-heading {
+    margin-top: 115px;
+    font-size: 60px;
+}
+
+.section-text {
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.section-additional-heading {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 45px;
+    color: #fff;
+}
+
+.section-additional-text {
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.section-button {
+    background-color: #bbce00;
+    color: #333;
+    text-align: center;
+}
+
+.section-button:hover {
+    background-color: #99a900;
+    color: #fff;
+}
+
+.section-img {
+    max-width: 100%;
+    height: 457px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.section-additional-field {
+    margin-top: 50px;
+    background-color: #808080;
+    height: auto;
+    max-width: 100%;
+    box-shadow: inset 0 0 5px #000;
+}
+
+#additionalAdferdskonsultasjon {
+    display: none;
+}
+
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-color: #bbce00;
+}
+
+.footer-Wrapper {
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.leftFooter {
+
+}
+
+.midFooter {
+    
+}
+
+.rightFooter {
+
+}
+
+.footer-lip {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    background-color: #333;
+}
+
+#footer-lip-p {
+    color: #888;
+    text-align: center;
+    padding-top: 17px;
+}

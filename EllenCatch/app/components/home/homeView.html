@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <!-- Carousel -->
+    <div class="container" *ngIf="showCarousel">
+        <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+            <!--Slide indicator-->
+            <ol class="carousel-indicators">
+                <li class="item1 active"></li>
+                <li class="item2"></li>
+                <li class="item3"></li>
+                <li class="item4"></li>
+            </ol>
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="../img/carousel1.jpg" alt="slide 1: Ellen with dogs in forest" width="800" height="562" />
+                </div>
+                <div class="item active">
+                    <img src="../img/carousel2.jpg" alt="slide 2: Ellen on IMDT conference with other instructors" width="800" height="562" />
+                </div>
+                <div class="item active">
+                    <img src="../img/carousel3.jpg" alt="slide 3: Ellen training dog" width="800" height="562" />
+                </div>
+                <div class="item active">
+                    <img src="../img/carousel4.jpg" alt="slide 4: Ellen with dogs on a field" width="800" height="562" />
+                </div>
+            </div>
+
+            <!--Left and right slide-navigators-->
+            <a class="left carousel-control" href="#mainCarousel" role="button" id="mainCarouselLeft">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">forrige</span>
+            </a>
+            <a class="right carousel-control" href="#mainCarousel" role="button" id="mainCarouselRight">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">neste</span>
+            </a>
+        </div>
+    </div>
+
+    <!--Navbar-->
+    <div>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Catch Ellen</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Hjem</a></li>
+                    <li><a href="#">Om Ellen</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--Site content-->
+    <div *ngIf="showWelcomeMsg">
+        Velkommen til denne siden!
+        DETTE ER LOL!
+    </div>
+
+    <!--Footer-->
+</body>
+</html>

@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ellen Bahr | Hundetrener</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../Scripts/javascript.js"></script>
+    <link rel="stylesheet" href="../Content/stylesheet.css"/>
+</head>
+<body>
+    <div class="header">
+        <!-- Carousel -->
+        <div class="container" *ngIf="showCarousel">
+            <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+                <!--Slide indicator-->
+                <ol class="carousel-indicators">
+                    <li class="item1 active"></li>
+                    <li class="item2"></li>
+                    <li class="item3"></li>
+                    <li class="item4"></li>
+                </ol>
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="../img/carousel5.jpg" alt="slide 1: Ellen with dogs in forest" />
+                    </div>
+                    <div class="item">
+                        <img src="../img/carousel6.jpg" alt="slide 2: Ellen on IMDT conference with other instructors" />
+                    </div>
+                    <div class="item">
+                        <img src="../img/carousel7.jpg" alt="slide 3: Ellen training dog"  />
+                    </div>
+                    <div class="item">
+                        <img src="../img/carousel8.jpg" alt="slide 4: Ellen with dogs on a field"  />
+                    </div>
+                </div>
+
+                <!--Left and right slide-navigators-->
+                <a class="left carousel-control" href="#mainCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">forrige</span>
+                </a>
+                <a class="right carousel-control" href="#mainCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">neste</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--Navbar-->
+    <div class="navbar-wrapper">
+        <nav class="navbar navbar-default" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="col-md-3"><a href="#">Hjem</a></li>
+                <li class="col-md-3"><a href="#">Tjenester</a></li>
+                <li class="col-md-3"><a href="#">Om Ellen</a></li>
+                <li class="col-md-3"><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Site content-->
+    <div class="mainContent">
+        <div class="section-row top-row">
+            <div class="col-md-7">
+                <h2 class="section-heading">Valpekurs</h2>
+                <p class="section-text">Lorem Ipsum er rett og slett dummytekst fra og for trykkeindustrien. Lorem Ipsum har vært bransjens standard for dummytekst helt siden 1500-tallet, da en ukjent boktrykker stokket en mengde bokstaver for å lage et prøveeksemplar av en bok. </p>
+                <button class="btn section-button">Les mer</button>
+            </div>
+            <div class="col-md-5" style="padding-right: 0">
+                <img src="../img/carousel6.jpg" alt="slide 2: Ellen on IMDT conference with other instructors" class="section-img" />
+            </div>
+            <div class="section-additional-field col-md-12" id="adferdskonsultasjon">
+
+            </div>
+        </div>
+
+
+        <div class="section-divider">
+            <hr />
+        </div>
+        <div class="section-row">
+            <div class="col-md-7 col-md-push-5">
+                <h2 class="section-heading">Lydighetskurs</h2>
+                <p class="section-text">Lorem Ipsum er rett og slett dummytekst fra og for trykkeindustrien. Lorem Ipsum har vært bransjens standard for dummytekst helt siden 1500-tallet, da en ukjent boktrykker stokket en mengde bokstaver for å lage et prøveeksemplar av en bok. </p>
+                <button class="btn section-button">Les mer</button>
+            </div>
+            <div class="col-md-5 col-md-pull-7" style="padding-left: 0">
+                <img src="../img/carousel6.jpg" alt="slide 2: Ellen on IMDT conference with other instructors" class="section-img" />
+            </div>
+            <div class="section-additional-field col-md-12" id="adferdskonsultasjon">
+
+            </div>
+        </div>
+
+
+        <div class="section-divider">
+            <hr />
+        </div>
+        <div class="section-row">
+            <div class="col-md-7">
+                <h2 class="section-heading">Adferdskonsultasjon</h2>
+                <p class="section-text">Lorem Ipsum er rett og slett dummytekst fra og for trykkeindustrien. Lorem Ipsum har vært bransjens standard for dummytekst helt siden 1500-tallet, da en ukjent boktrykker stokket en mengde bokstaver for å lage et prøveeksemplar av en bok. </p>
+                <button class="btn section-button" id="moreAdferdskonsultasjon">Les mer</button>
+            </div>
+            <div class="col-md-5" style="padding-right: 0">
+                <img src="../img/carousel6.jpg" alt="slide 2: Ellen on IMDT conference with other instructors" class="section-img" />
+            </div>
+            <div class="section-additional-field col-md-12" id="additionalAdferdskonsultasjon">
+                <h2 class="section-additional-heading">Mer lesing</h2>
+                <p class="section-additional-text">Lorem Ipsum er rett og slett dummytekst fra og for trykkeindustrien. Lorem Ipsum har vært bransjens standard for dummytekst helt siden 1500-tallet, da en ukjent boktrykker stokket en mengde bokstaver for å lage et prøveeksemplar av en bok. 
+                    Lorem Ipsum er rett og slett dummytekst fra og for trykkeindustrien. Lorem Ipsum har vært bransjens standard for dummytekst helt siden 1500-tallet, da en ukjent boktrykker stokket en mengde bokstaver for å lage et prøveeksemplar av en bok. 
+                    Lorem Ipsum er rett og slett dummytekst fra og for trykkeindustrien. Lorem Ipsum har vært bransjens standard for dummytekst helt siden 1500-tallet, da en ukjent boktrykker stokket en mengde bokstaver for å lage et prøveeksemplar av en bok. <br /><br />
+                    Lorem Ipsum er rett og slett dummytekst fra og for trykkeindustrien. Lorem Ipsum har vært bransjens standard for dummytekst helt siden 1500-tallet, da en ukjent boktrykker stokket en mengde bokstaver for å lage et prøveeksemplar av en bok. 
+                    Lorem Ipsum er rett og slett dummytekst fra og for trykkeindustrien. Lorem Ipsum har vært bransjens standard for dummytekst helt siden 1500-tallet, da en ukjent boktrykker stokket en mengde bokstaver for å lage et prøveeksemplar av en bok. 
+                </p>
+            </div>
+        </div>
+
+
+        <div class="section-divider">
+            <hr />
+        </div>
+        <div class="section-row bottom-row">
+            <div class="col-md-7 col-md-push-5">
+                <h2 class="section-heading">Opplæring i hundens kroppsspråk</h2>
+                <p class="section-text">Lorem Ipsum er rett og slett dummytekst fra og for trykkeindustrien. Lorem Ipsum har vært bransjens standard for dummytekst helt siden 1500-tallet, da en ukjent boktrykker stokket en mengde bokstaver for å lage et prøveeksemplar av en bok. </p>
+                <button class="btn section-button">Les mer</button>
+            </div>
+            <div class="col-md-5 col-md-pull-7" style="padding-left: 0">
+                <img src="../img/carousel6.jpg" alt="slide 2: Ellen on IMDT conference with other instructors" class="section-img" />
+            </div>
+            <div class="section-additional-field col-md-12" id="adferdskonsultasjon">
+
+            </div>
+        </div>
+
+
+        <div *ngIf="showWelcomeMsg">
+            Velkommen til denne siden!
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-Wrapper">
+            <div class="leftFooter col-md-4">
+                <h2>Ellen Bahr AS</h2>
+                <h3>Sertifisert Hundetrener</h3>
+            </div>
+            <div class="midFooter col-md-4">
+                <h2>Kontakt info:</h2>
+                <h4>Telefon: 98700123</h4>
+                <h4>Epost: email@gmail.com</h4>
+            </div>
+            <div class="rightFooter col-md-4">
+                <h2>Ellen Bahr AS</h2>
+                <h3>Sertifisert Hundetrener</h3>
+            </div>
+        </div>
+    </div>
+    <div class="footer-lip"> 
+        <p id="footer-lip-p"> &copy; 2017 - Ellen Bahr AS</p>
+    </div>
+
+</body>
+</html>
